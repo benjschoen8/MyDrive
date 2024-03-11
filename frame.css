@@ -1,0 +1,180 @@
+body{
+	height:100vh;
+	margin:0;
+}
+
+#outer_container{
+	width:100%;
+	height:100%;
+	padding:0;
+	display:grid;
+	grid-template-columns:240px auto;
+	grid-template-rows:100vh;
+}
+
+#left_container{
+	padding:0;
+	display:grid;
+	grid-template-columns:240px;
+	grid-template-rows:65px 45px auto 25px 5px;
+	min-height:100%;
+	gap:5px 0px;
+	box-shadow: 2px 0.5px 2px black;
+}
+
+#left_container_logo{
+	height:100%;
+	display:grid;
+	grid-template-columns:5px auto;
+	grid-template-rows:55px;
+}
+
+#left_container_logo:hover{
+	cursor:pointer;
+}
+
+#left_container_logo_icon_container{
+	height:100%;
+	padding:15px 0 0 25px;
+}
+
+#logo_icon{
+	width: 0;
+	height: 0;
+}
+
+.text_container{
+	padding:0px;
+	display:flex;
+	align-items:center;
+	height:100%;
+	justify-content:center;
+}
+
+#logo_text{
+	font-size:27px;
+	user-select:none;
+}
+
+#left_container_upload_outer{
+	padding:0 20px;
+	width:60%;
+}
+
+#left_container_upload{
+	height:100%;
+	border-radius:10px;
+	border-style:solid;
+	border-width:0.5px;
+	display:grid;
+	grid-template-columns:70px auto;
+}
+
+#left_container_upload:hover{
+	cursor:pointer;
+}
+
+#cross_vertical {
+	position:relative;
+      	height: 55%;
+	width:4.5px;
+	top:19.5%; left:34%;
+}
+
+#cross_horizontal{
+	margin:-50% 0;
+	position:relative;
+      	height: 4.5px;
+	width:34%;
+	top:64%;
+     	left:20%;
+}
+
+#upload_text{
+	margin:-5px 10px 0 -30px;
+	display:inline;
+	font-size:22px;
+}
+
+#catagory_container{
+	padding:0 0 0 5px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+.catagories{
+	height:30px;
+	padding:0px 15px 0 25px;
+	display:grid;
+	grid-template-columns:12px auto 15px;
+	grid-template-rows:30px;
+	gap:15px;
+}
+
+.catagories:hover{
+	cursor:pointer;
+}
+
+.drag_icon{
+	justify:center;
+	padding:3.5%;
+	cursor:move;
+}
+
+.drag_icon_top{
+	width:100%;
+	height:1.5px;
+	position:relative;
+	top:20%;
+}
+
+.drag_icon_mid{
+	width:100%;
+	height:1.5px;
+	position:relative;
+	top:35%;
+}
+
+.drag_icon_bot{
+	width:100%;
+	height:1.5px;
+	position:relative;
+	top:50%;
+
+}
+
+.catagory_text{
+	padding:0;
+	margin:5px 0 0 0;
+	font-size:15px;
+	user-select:none;
+}
+
+.catagory_option_container{
+	padding:20%;	
+}
+
+.catagory_option{
+	min-height:50%;
+	min-width:30%;
+	position:relative;
+	top:20%;
+	display:block;
+}
+
+#catagory_add_text{
+	margin:0;
+	padding: 0px 0px;
+	min-width:100%;
+	text-align:center;
+	font-size:20px;
+	user-select:none;
+}
+
+#catagory_add_text:hover{
+	cursor:pointer;
+}
+
+#right_container{
+	padding:0;
+}
